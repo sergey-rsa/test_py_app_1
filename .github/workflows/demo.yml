@@ -1,0 +1,23 @@
+name: Demo Workflow
+
+# Запускать вручную или при пуше в main
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: List repository files
+        run: ls -R .
+
+      - name: Say Hello
+        run: echo "Hello, world!"
