@@ -6,7 +6,7 @@
   properties:
     readme: README.md
     url: https://example.com
-    language: Pthon
+    language: Python
     slack: https://example.com
     tier: Mission Critical
   relations: {}
