@@ -1,6 +1,6 @@
 - identifier: test_py_app_1
   title: Test Python application 1
-  team: []
+  team: [Dev1]
   icon: DefaultBlueprint
   blueprint: Python app
   properties:
